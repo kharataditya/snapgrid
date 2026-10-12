@@ -1,0 +1,27 @@
+{
+  "name": "snapgrid",
+  "version": "1.0.0",
+  "description": "SnapGrid — Mini Instagram Clone for DBMS Project (MySQL + Express + React)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "setup": "npm run install:all && node database/init_db.js",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "backend:start": "npm --prefix backend start",
+    "frontend:build": "npm --prefix frontend run build",
+    "db:setup": "node database/init_db.js",
+    "start": "start-dev.bat"
+  },
+  "keywords": [
+    "snapgrid",
+    "instagram-clone",
+    "mysql",
+    "dbms",
+    "express",
+    "react",
+    "vite",
+    "fullstack"
+  ],
+  "author": "Aditya Kharat",
+  "license": "MIT"
+}

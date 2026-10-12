@@ -1,0 +1,32 @@
+{
+  "name": "snapgrid-backend",
+  "version": "1.0.0",
+  "description": "Backend API for SnapGrid Mini Instagram Clone",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "db:setup": "node ../database/init_db.js"
+  },
+  "keywords": [
+    "snapgrid",
+    "instagram-clone",
+    "express",
+    "mysql",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.24.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
